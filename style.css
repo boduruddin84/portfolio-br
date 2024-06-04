@@ -1,0 +1,599 @@
+/* navigation bar start */
+.main-nav {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-left {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--logo-color);
+    letter-spacing: 2px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list-items {
+    float: left;
+    
+}
+
+.nav-list-items-links {
+    display: block;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: var(--white);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav-button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 1px;
+    background-color: var(--logo-color);
+    padding: 16px 20px;
+    border: none;
+    color: var(--white);
+}
+/* navigation bar end */
+/* Banner Section start */
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.banner-left {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+#banner-bio-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--white);
+}
+
+#banner-bio-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--description-color);
+}
+
+#banner-bio-title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--white);
+    margin: 20PX 0PX;
+}
+
+.banner-button {
+    width: 70%;
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DEDEDE;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+#banner-button1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 7px;
+    background-color: var(--logo-color);
+    padding: 0px 40px;
+    border: none;
+    border-radius: 40px;
+    color: var(--white);
+}
+
+#banner-button2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding: 16px 20px;
+    border: none;
+    color: var(--white);
+}
+
+.social-icons {
+    font-size:36px;
+    color: #8E8E8E;
+    margin: 0px 20px 0px 0px;
+}
+
+#star {
+    color: var(--logo-color);
+}
+
+#dhaka {
+    color: var(--logo-color);
+}
+
+.banner-right {
+    width: 538px;
+    height: 617px;
+}
+
+#my-image {
+    width: 371px;
+    height: 456px;
+    position: relative;
+    border-radius: 0% 0% 41% 40%;
+}
+
+#img {
+    width: 371px;
+    height: 456px;
+    position: absolute;
+}
+
+#img-1 {
+    width: 100%;
+    height: 20%;
+}
+#img-2 {
+    width: 99%;
+    height: 80%;
+    background-color: var(--black-color);
+    border: 4px solid #530D43;
+    border-radius: 47%;
+    margin: 0px 0px 0px -3px
+}
+
+#banner-bio-title-2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    border: none;
+    padding: 40px 0px;
+    color: var(--white);
+    transform: rotate(-5deg);
+    margin: -152px -14px 125px -11px;
+    background-color: var(--black-color);
+}
+
+#star-2 {
+    color: #31373C;
+}
+/* Banner Section end */
+
+/* About me Section start */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+#about-section-left-header{
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--white);
+}
+
+#about-section-left-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--description-color);
+}
+
+.about-section-right {
+    text-align: right;
+}
+
+#about-section-right-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    color: var(--white);
+}
+
+#about-section-right-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+}
+/* About me Section end */
+
+/* Experience Section start */
+
+#exprience-section {
+    background-color: #342626;
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+
+#exprience-section-left-description-1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--white);
+    padding: 60px 0px 20px 0px;
+}
+
+#exprience-section-left-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+
+#exprience-section-left-description-2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.exprience-section-right-divs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.exprience-section-right-header-main {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--white);
+    padding: 15px 0px;
+    border-bottom: 1px solid #0D99FF;
+}
+
+.exprience-section-right-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--white);
+}
+
+.exprience-section-right-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white);
+}
+
+/* Experience Section end */
+
+/* Awards Section start */
+
+#awards {
+    padding: 100px;
+}
+
+#awards-header-main {
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 47px;
+    letter-spacing: -1px;
+    color: var(--white);
+    text-align: center;
+}
+
+#awards-description-main {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--description-color);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.awards-divs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: var(--black-color);
+    padding: 30px 0px 20px 0px;
+}
+
+.awards-headers {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+}
+
+.awards-header-2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.awards-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--description-color);
+    padding: 15px 0px;
+}
+
+/* Awards Section end */
+
+/* My Portfolio Section start */
+
+#portfolio-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+}
+
+#portfolio-description {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--description-color);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#portfolio-button-div {
+    text-align: center;
+    margin: 30px;
+}
+
+#portfolio-button-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--black-color);
+    border: none;
+    padding: 10px 20px;
+}
+
+#portfolio-button-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--logo-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 0px 20px;
+}
+
+#portfolio-button-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--black-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 0px 20px;
+}
+
+#portfolio-button-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--black-color);
+    border: none;
+    padding: 10px 20px;
+}
+
+#portfolio-projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.portfolio-title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--white);
+}
+
+.portfolio-header-subs {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+}
+
+.portfolio-description-subs {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: var(--description-color);
+}
+
+/* My Portfolio Section end */
+
+/* Contact Section start */
+
+#contact-div {
+    margin: 60px 0px;
+}
+
+#contact-title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--white);
+    text-align: center;
+}
+
+#contact-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+    padding: 15px 0px 30px 0px;
+}
+
+#contact-div-container {
+    margin: 10px 215px;
+}
+
+#contact-header-2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    padding: 35px 0px 20px 138px;
+}
+
+#contact-div-container {
+    background-color: #34261B;
+}
+
+#contact-details {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.contact-label-input-details {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.contact-input-details {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    border-bottom: 1px solid var(--white);
+    background-color: #34261B;
+}
+
+#contact-details-files {
+    padding-left: 136px;
+}
+
+.contact-label-file {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    text-align: left;
+}
+
+#file {
+    text-align: left;
+}
+
+#contact-button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: var(--logo-color);
+    padding: 16px 20px;
+    border: none;
+    color: var(--white);
+    margin: 30px 0px 40px 0px;
+}
+
+/* Contact Section end */
+
+/* Footer Section start */
+
+#footer-container {
+    background-color: var(--black-color);
+}
+
+#footer-logo {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--logo-color);
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px 40px 250px;
+}
+
+.footer-list-items {
+    float: left;
+}
+
+.footer-list-items-links {
+    display: block;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: var(--white);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#footer-social-icons-div {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer-social-icons {
+    font-size:36px;
+    color: var(--white);
+    margin: 0px 20px 0px 0px;
+}
+
+#footer-copyright {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#my-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--logo-color);
+} 
+
+/* Footer Section end */
