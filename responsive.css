@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
 
     body {
         overflow-x: hidden;
@@ -6,17 +6,21 @@
 
     .main-nav {
         flex-direction: column;
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
+        margin: 0;
     }
 
     .nav-left {
-        font-size: 90px;
+        /* font-size: 90px; */
+        font-size: 140px;
+        width: 100%;
     }
 
     .nav-right {
+        /* flex-direction: column; */
         flex-direction: column;
+        width: 100%;
     }
 
     .nav-list-items {
@@ -24,19 +28,20 @@
     }
 
     .nav-list-items-links {
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .nav-button {
-        font-size: 50px;
+        font-size: 70px;
         margin-top: 20px;
+        width: 100%;
+        height: 140px;
     }
 
     .banner-section {
         flex-direction: column;
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     .banner-left {
@@ -84,15 +89,14 @@
     #banner-bio-title-2 {
         font-weight: 400;
         font-size: 32px;
-        padding: 30px 0px;
-        margin: -259px -124px 108px 61px;
+        padding: 30px 0px; 
+        margin: -259px -392px 108px 6px;
         /* display: none; */
     }
 
     #about_me {
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     .about-section {
@@ -123,13 +127,14 @@
     }
 
     #testimonials {
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     #exprience-section {
         flex-direction: column;
+        width: 100%;
+        padding: 0px;
     }
 
     #exprience-section-left-description-1 {
@@ -166,9 +171,8 @@
     }
 
     #awards {
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     #awards-header-main {
@@ -199,9 +203,8 @@
     }
 
     #services {
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     #portfolio-header {
@@ -256,9 +259,8 @@
     }
 
     #contact {
-        width: 100%;
-        padding: 87px;
-        margin: 0px;
+        width: 646px;
+        padding: 60px;
     }
 
     #contact-title {
@@ -316,13 +318,17 @@
     }
 
     footer {
+        width: 646px;
+        padding: 60px;
+    }
+
+    #footer-container {
         width: 100%;
-        padding: 87px;
-        margin: 0px;
     }
 
     #footer-logo {
-        font-size: 110px;
+        font-size: 160px;
+        width: 100%;
     }
 
     .footer-list {
@@ -344,5 +350,6 @@
 
     #footer-copyright {
         font-size: 40px;
+        width: 100%;
     }
 }
