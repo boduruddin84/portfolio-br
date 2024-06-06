@@ -134,7 +134,7 @@
     #exprience-section {
         flex-direction: column;
         width: 100%;
-        padding: 0px;
+        padding: 0px 0px 0px 20px;
     }
 
     #exprience-section-left-description-1 {
